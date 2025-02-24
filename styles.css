@@ -1,0 +1,375 @@
+body {
+  background: #fef8f8;
+  font-family: "Roboto";
+  border: salmon 5px solid; /* Для наглядности */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid red; /* Для наглядности */
+  gap: 630px;
+  padding: 0 100px 0 100px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 14px;
+  color: rgba(85, 85, 85, 1);
+}
+
+.Registrasi {
+  width: 90px;
+  height: 36px;
+  display: flex;
+  background: rgba(238, 149, 145, 1);
+  color: rgba(246, 246, 246, 1);
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 10px 10px 30px rgba(234, 141, 136, 0.4);
+  font-size: 14px;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 100px 0 100px;
+}
+.textpasti {
+  display: flex;
+  flex-direction: column;
+  color: rgba(85, 85, 85, 1);
+  font-size: 70px;
+}
+
+/* если в спане указать на эту точку, то она улетит */
+
+.dot {
+  color: #f18d9e;
+}
+
+.imgcoin {
+  margin-top: 65px;
+}
+
+.setiap {
+  font-size: 16px;
+  color: #888;
+}
+
+.tabl {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+}
+
+.tabl li::marker {
+  color: #f18d9e;
+  background-color: #e08d8d; /* Цвет круга */
+  box-shadow: 0 0 10px rgba(224, 141, 141, 0.5);
+}
+
+.indonesian {
+  background: rgba(238, 149, 145, 1);
+  border-radius: 10px;
+  width: 450px;
+  height: 84px;
+  color: rgba(246, 246, 246, 1);
+  font-size: 20px;
+  box-shadow: 10px 10px 30px rgba(234, 141, 136, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+.indonesian p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.indonesian h4 {
+  margin-bottom: 5px;
+}
+
+.numbers {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  z-index: 2;
+}
+
+/* текст не реагирует на изменение положения */
+.numberelement {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-bottom: 400px;
+}
+
+#Beautypreneur {
+  flex: 1;
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-image: url("background.png");
+  background-size: cover;
+}
+
+#Beautypreneurtext {
+  flex: 1;
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-image: url("background.png");
+  background-size: cover;
+  justify-content: center;
+}
+
+#Beautypreneurtext h1 {
+  font-size: 40px;
+  color: rgba(85, 85, 85, 1);
+}
+
+#Beautypreneurtext p {
+  font-size: 16px;
+  color: rgba(136, 136, 136, 1);
+}
+
+.beauryselling {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.sel {
+  font-size: 70px;
+  color: rgba(85, 85, 85, 1);
+}
+.wit {
+  color: rgba(238, 149, 145, 1);
+}
+
+.pasar {
+  font-size: 16px;
+  color: rgba(136, 136, 136, 1);
+}
+
+#s {
+  color: #f18d9e;
+}
+#q {
+  color: rgba(85, 85, 85, 1);
+}
+
+.imgBukantext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Bukan {
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgBukan {
+  float: left;
+}
+.imgcorner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#textbukan {
+  color: rgba(85, 85, 85, 1);
+
+  font-size: 40px;
+}
+
+#subtextbukan {
+  color: rgba(136, 136, 136, 1);
+  font-size: 16px;
+}
+#digitalisasi {
+  color: rgba(238, 149, 145, 1);
+}
+
+#tablebukan {
+  color: rgba(136, 136, 136, 1);
+  font-weight: bold;
+}
+
+.tablebukan li::marker {
+  color: #f18d9e;
+  background-color: #e08d8d;
+  box-shadow: 0 0 10px rgba(224, 141, 141, 0.5);
+}
+
+#textPokonya {
+  font-size: 40px;
+  color: rgba(85, 85, 85, 1);
+}
+#berbagai {
+  color: rgba(238, 149, 145, 1);
+}
+
+/* .Pokonya
+{ хз как отобразить по центру корректно} */
+#textMeet {
+  font-size: 40px;
+  color: rgba(85, 85, 85, 1);
+}
+#Kita {
+  color: rgba(136, 136, 136, 1);
+  font-size: 16px;
+}
+
+#mentor,
+#advisor {
+  color: rgba(238, 149, 145, 1);
+}
+.meetcontainer {
+  display: flex;
+  gap: 128px;
+}
+
+.Meet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* не понимаю как сделать так, чтобы зашоловок был ровно по центру */
+.anketa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.anketabackground {
+  position: absolute;
+  width: 10%;
+  z-index: -1;
+}
+/* не понимаю как бэкграунд выставить */
+
+#ChantalShelburne {
+  display: flex;
+  flex-direction: column;
+}
+
+#namef {
+  font-size: 18px;
+  color: rgba(85, 85, 85, 1);
+}
+
+.anketa p {
+  margin-top: -26px;
+}
+#job {
+  color: rgba(238, 149, 145, 1);
+}
+#s {
+  color: rgba(85, 85, 85, 1);
+}
+
+/* опять хз как выровнять по фигме */
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  padding-left: 600px;
+  align-items: center;
+}
+.testimonial p {
+  font-size: 18px;
+}
+.testimonial h3 {
+  font-size: 40px;
+  margin-top: -10px;
+}
+.Annabel {
+  display: flex;
+  flex-direction: column;
+  padding-left: 800px;
+  margin-top: -200px;
+}
+.Annabel h4 {
+  font-size: 18px;
+  color: rgba(85, 85, 85, 1);
+}
+#Leader {
+  margin-top: -40px;
+  font-size: 12px;
+  color: rgba(238, 149, 145, 1);
+}
+.Annabel p {
+  color: rgba(136, 136, 136, 1);
+  font-size: 16px;
+}
+#next {
+  display: flex;
+  align-items: center;
+}
+.last {
+  background-color: rgba(238, 149, 145, 1);
+  width: 540px;
+  height: 450px;
+  border-radius: 0 150px 0 0;
+  display: flex;
+  padding-left: 100px;
+  justify-content: center;
+  flex-direction: column;
+  color: rgba(246, 246, 246, 1);
+  align-items: flex-start;
+}
+
+/* тоже хз как выровнять правильно */
+.lastpos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+}
+.About p {
+  gap: 14px;
+}
+.Support {
+  display: flex;
+  flex-direction: column;
+}
+
+.Support p {
+  gap: 14px;
+}
+#Support {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* хз как отобразить четко в углу  */
+#lamp {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+#About {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
